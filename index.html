@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Dojonary</h1>
+            <input type="text" id="search-bar" placeholder="Search">
+            <button class="button log-button" onclick="changeText(this)">Login</button>
+        </nav>
+    </header>
+    <main>
+        <div class="definitions side-box">
+            <div class="definition-box box-border">
+                <div class="definition-header">
+                    <div class="infobox">
+                        <span class="box-title">ninja</span>
+                        <span class="title-type text-italic">noun</span>
+                        <p class="definition-extra">Plural: <span class="text-italic">ninjas</span></p>
+                    </div>
+                    <button class="button like-button" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="definition-info">
+                    <p>
+                        A practitioner skilled in the <a href="#">Japanese</a> art of <a href="">ninjutsu</a>
+                    </p>
+                </div>
+            </div>
+            <div class="definition-box box-border">
+                <div class="definition-header">
+                    <div class="infobox">
+                        <span class="box-title">ninja</span>
+                        <span class="title-type text-italic">noun</span>
+                        <p class="definition-extra">Plural: <span class="text-italic">ninjas</span></p>
+                    </div>
+                    <button class="button like-button" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div class="definition-info">
+                    <p>
+                        A <a href="#">programmer</a> who breaks down problems with <a href="">zen</a>-like focus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <aside class="add-definitions side-box">
+            <div class="add-definitions-box box-border">
+                <p class="add-definitions-title">Dojonary is defined by <span class="text-bold">YOU</span></p>
+                <button class="button add-button" onclick="removeButton(this)">Add Definition</button>
+            </div>
+        </aside>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>

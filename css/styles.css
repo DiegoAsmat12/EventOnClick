@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 2px 10%;
+    font-family: 'Balsamiq Sans';
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: rgb(189, 189, 189);
+    padding: 0px 30px;
+    margin: 0 10px;
+}
+.logo{
+    font-size: 38px;
+}
+#search-bar{
+    justify-self: center;
+    margin: 0px 40px;
+    width: 300px;
+    height: 30px;
+    border: 2px solid black;
+    padding-left:5px;
+    font-family: 'Balsamiq Sans';
+}
+.log-button{
+    padding: 2px 10px;
+    background-color: rgb(52, 99, 228); 
+    color: white;
+}
+/* Cambios Generales */
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.side-box{
+    margin: 10px;
+}
+.button{
+    border: 2px solid black;
+    box-shadow: 2px 3px black;
+    font-family: 'Balsamiq Sans';
+    font-size: 16px;
+}
+.text-italic{
+    font-style:italic;
+}
+.text-bold{
+    font-weight: 900;
+}
+
+.box-border{
+    margin: 20px 0px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.definitions{
+    flex: 2;
+}
+.add-definitions{
+    flex: 1;
+}
+.definition-box{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    min-height: 200px;
+    flex: 1;
+}
+.definition-header{
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px;
+}
+.definition-box .infobox{
+    display: flex;
+    flex-direction: column;
+}
+.infobox>*{
+    margin: 3px 0px;
+}
+.infobox .box-title{
+    font-size: 40px;
+}
+.infobox .title-type{
+    font-size: 24px;
+}
+.like-button{
+    padding: 5px;
+    width: 90px;
+    background-color: rgb(243, 215, 89);
+}
+.definition-info{
+    flex: 1;
+    padding: 20px;
+    font-size: 20px;
+}
+.add-definitions-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add-definitions-box>*{
+    margin: 10px;
+}
+.add-definitions-title{
+    font-size: 28px;
+}
+.add-button{
+    padding: 5px 10px;
+    width: 90%;
+    background-color: rgb(148, 207, 130);
+}
